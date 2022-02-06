@@ -1,0 +1,5 @@
+
+RewriteEngine on
+
+RewriteRule ^(\w+)$ index.php?action=$1
+## mantiene la conexion y mejoras en el codigo

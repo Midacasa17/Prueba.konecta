@@ -1,0 +1,12 @@
+CREATE DATABASE konectadb
+CREATE TABLE Producto(
+idProducto INT PRIMARY KEY AUTO_INCREMENT,
+nombre VARCHAR() NOT NULL,
+referencia VARCHAR() NOT NULL,
+precio INT NOT NULL,
+peso INT NOT NULL,
+categoria VARCHAR() NOT NULL,
+stock INT NOT NULL,
+fechaCreacion DATE NOT NULL,
+fechaUltimaVenta DATETIME DEFAULT NULL
+)
